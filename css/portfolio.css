@@ -1,0 +1,27 @@
+/* SECTION PORTFOLIO GALLERY */
+
+.portfolio-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  
+  .portfolio-gallery__img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-gallery__img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }

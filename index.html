@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy room online-school</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a class="logo" href="index.html">
+                    <img class="logo__img" src="images/logo.png" alt="Logo Photographer">
+                </a>
+                <nav class="menu">
+                    <button class="menu__btn">
+                        <span></span>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#aboutus">Онлайн-курси</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#portfolio">Майстер класи</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Ціна</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a class="menu__link" href="#blog">Blog</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a class="menu__link" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="social__list header-social__list">
+                    <li class="social__item header-social__item">
+                        <a class="social__link header-social__link" href="#" target="_blank">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.8793 0.685547H8.12073C3.64288 0.685547 0 4.207 0 8.53558V21.8357C0 26.1641 3.64288 29.6855 8.12073 29.6855H21.8795C26.3571 29.6855 30 26.1641 30 21.8357V8.53558C30 4.207 26.3571 0.685547 21.8793 0.685547V0.685547ZM28.2413 21.8357C28.2413 25.2266 25.3873 27.9854 21.8793 27.9854H8.12073C4.61266 27.9854 1.75873 25.2266 1.75873 21.8357V8.53558C1.75873 5.14445 4.61266 2.38565 8.12073 2.38565H21.8795C25.3873 2.38565 28.2413 5.14445 28.2413 8.53558V21.8357Z"
+                                    fill="#242636" />
+                                <path
+                                    d="M14.9986 7.25635C10.4754 7.25635 6.79565 10.8134 6.79565 15.1858C6.79565 19.5582 10.4754 23.1153 14.9986 23.1153C19.5217 23.1153 23.2014 19.5582 23.2014 15.1858C23.2014 10.8134 19.5217 7.25635 14.9986 7.25635V7.25635ZM14.9986 21.4152C11.4454 21.4152 8.55438 18.6208 8.55438 15.1858C8.55438 11.7511 11.4454 8.95645 14.9986 8.95645C18.5519 8.95645 21.4427 11.7511 21.4427 15.1858C21.4427 18.6208 18.5519 21.4152 14.9986 21.4152V21.4152Z"
+                                    fill="#242636" />
+                                <path
+                                    d="M23.3987 4.43994C22.062 4.43994 20.9748 5.49111 20.9748 6.78301C20.9748 8.07512 22.062 9.12629 23.3987 9.12629C24.7353 9.12629 25.8227 8.07512 25.8227 6.78301C25.8227 5.49089 24.7353 4.43994 23.3987 4.43994ZM23.3987 7.42597C23.032 7.42597 22.7335 7.13745 22.7335 6.78301C22.7335 6.42834 23.032 6.14005 23.3987 6.14005C23.7655 6.14005 24.064 6.42834 24.064 6.78301C24.064 7.13745 23.7655 7.42597 23.3987 7.42597Z"
+                                    fill="#242636" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item header-social__item header-social__item--telegram">
+                        <a class="social__link header-social__link" href="#">
+                            <svg width="31" height="24" viewBox="0 0 31 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.2809 0.416756C29.987 0.0419277 29.4997 -0.097075 29.0664 0.0697282L1.54755 10.4827C0.997775 10.6919 0.611881 11.1993 0.540241 11.8068C0.469288 12.4115 0.723804 12.9982 1.20125 13.3359L5.13481 16.1475C5.51589 16.42 6.00593 16.4493 6.41402 16.2238L14.9467 11.5123L8.29657 16.7117C7.98438 16.9559 7.79784 17.3454 7.79784 17.7533V22.5695C7.79784 23.0663 8.05808 23.5214 8.47693 23.7577C8.89647 23.994 9.40322 23.9705 9.8017 23.6954L12.7902 21.6197L15.729 23.7179C15.9865 23.9027 16.2932 24 16.6027 24C16.7073 24 16.8123 23.9887 16.9158 23.9662C17.3285 23.8761 17.6935 23.6091 17.9176 23.2338L30.3681 1.7368C30.6105 1.32291 30.5757 0.793261 30.2809 0.416756V0.416756ZM16.537 22.0659L13.4936 19.8929C13.2818 19.7415 13.0379 19.6658 12.7941 19.6658C12.5556 19.6658 12.3169 19.7384 12.1079 19.8836L9.55657 21.6556V18.025L21.2993 8.84391C21.8237 8.43386 21.9558 7.68756 21.6063 7.10806C21.2565 6.52856 20.5564 6.33276 19.9775 6.65246L5.86929 14.4426L2.54227 12.0645L27.8833 2.47567L16.537 22.0659Z"
+                                    fill="#242636" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item header-social__item header-social__item--facebook">
+                        <a class="social__link header-social__link" href="#">
+                            <svg width="18" height="30" viewBox="0 0 18 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.1183 30H6.03968C5.19139 30 4.50133 29.3472 4.50133 28.5448V17.7086H1.53835C0.690056 17.7086 0 17.0556 0 16.2534V11.61C0 10.8076 0.690056 10.1548 1.53835 10.1548H4.50133V7.82959C4.50133 5.52406 5.26663 3.56255 6.71425 2.15744C8.1684 0.745926 10.2006 0 12.5911 0L16.4643 0.0059509C17.3112 0.00732422 18 0.660095 18 1.46118V5.7724C18 6.57486 17.3102 7.22763 16.4621 7.22763L13.8543 7.22855C13.059 7.22855 12.8565 7.37938 12.8132 7.42561C12.7418 7.50229 12.6569 7.71904 12.6569 8.31757V10.1546H16.2662C16.5379 10.1546 16.8011 10.218 17.0273 10.3374C17.5154 10.5954 17.8188 11.0831 17.8188 11.6103L17.8168 16.2536C17.8168 17.0556 17.1268 17.7084 16.2785 17.7084H12.6569V28.5448C12.6569 29.3472 11.9666 30 11.1183 30V30ZM6.36051 28.2413H10.7975V16.9212C10.7975 16.3854 11.2584 15.9496 11.8246 15.9496H15.9577L15.9594 11.9135H11.8243C11.2582 11.9135 10.7975 11.4777 10.7975 10.9419V8.31757C10.7975 7.63046 10.8713 6.84906 11.4196 6.26175C12.082 5.55176 13.1261 5.46982 13.8539 5.46982L16.1408 5.4689V1.76422L12.5896 1.75873C8.74788 1.75873 6.36051 4.08508 6.36051 7.82959V10.9419C6.36051 11.4775 5.89983 11.9135 5.33366 11.9135H1.85918V15.9496H5.33366C5.89983 15.9496 6.36051 16.3854 6.36051 16.9212V28.2413ZM16.4607 1.76468H16.4609H16.4607Z"
+                                    fill="#242636" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <h1 class="title-header">
+                    Курс "Fashion-illustration"
+                </h1>
+                
+                
+
+
+
+
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- SECTION ABOUT -->
+        <section id="about" class="about section-page">
+            <div class="container">
+                <h2 class="about__title title"> Переваги нашого курсу </h2>
+                <div class="about__text">
+                    
+                    <h2> 
+                        <img class="painting" src="images/painting.svg" alt="painting" width="50">
+                        Доступ до матеріалів на рік
+                    </h2>
+                      <p>
+                        Оплачуючи курс, ви відразу потрапляєте до особистого кабінету з усіма відео уроками, домашніми завданнями та додатковими матеріалами.
+                      </p>
+        
+                      <h2>
+                        <img class="package-icon" src="images/schedule-pink.svg" alt="package" width="50">Навчайтесь у зручний для вас час</h2>
+                      <p>
+                        Займатися можна в будь-який зручний час та місце, уроки можна переглядати необмежену кількість разів з будь-якого пристрою.
+                      </p>
+                    
+                      <h2> <img class="package-icon-11" src="images/package-icon-6.svg" alt="package" width="50">Підтримка викладача</h2>
+                      <p>
+                        Усі завдання перевіряються протягом 1-3 днів і кожен учасник курсу отримує розгорнутий відповідь із рекомендаціями.
+                      </p> 
+
+                      <h2> <img class="package-icon-11" src="images/package-icon.svg" alt="package" width="50">Диплом по завершенню курсу</h2>
+                      <p>
+                       Після завершення курсу ви отримаєте диплом.
+                      </p> 
+
+                    
+                </div>
+            </div>
+        </section>
+        <!-- SECTION PORTFOLIO GALLERY -->
+        <section id="portfolio" class="portfolio section-page">
+            <div class="container">
+                <h2 class="portfolio__title title">Portfolio Gallery</h2>
+                <div class="portfolio-gallery">
+                    <img class="portfolio-gallery__img" src="images/gallery/flowers.jpg" alt="Flowers">
+                    <img class="portfolio-gallery__img" src="images/gallery/aster.jpg" alt="Aster">
+                    <img class="portfolio-gallery__img" src="images/gallery/field-flower.jpg" alt="Field's flowers">
+                    <img class="portfolio-gallery__img" src="images/gallery/flower-bud.jpg" alt="Flower's bud">
+                    <img class="portfolio-gallery__img" src="images/gallery/winter-flower.jpg" alt="Winter flower">
+                    <img class="portfolio-gallery__img" src="images/gallery/snow-flower.jpg" alt="Flower in snow">
+                </div>
+            </div>
+        </section>
+        <!-- BLOCKQUOTE  -->
+        <blockquote class="blockquote">
+            <div class="container">
+                <p class="blockquote__text">«WANT TO HAVE INCREDIBLE LIFE MEMORIES?»</p>
+            </div>
+        </blockquote>
+        <!--SECTION BLOG  -->
+        <section id="blog" class="blog section-page">
+            <div class="container">
+                <h2 class="about__title title">Blog</h2>
+                <div class="blog-articles ">
+                    <div class="blog-articles__box">
+
+                        <div class="blog-articles__article article">
+                            <article class="article-card">
+                                <a href="#" class="article-content">
+                                    <div class="article-card__img-wrapper">
+                                        <div class="article-card__img">
+                                            <img class="article__img" src="images/blog/wedding.jpg" alt="Wedding">
+                                        </div>
+                                    </div>
+                                    <div class="article-card__info">
+                                        <header class="article-card__header">
+                                            <h2 class="article-card__title">How to Take Pro Photos</h2>
+                                            <span class="article-card__date">Nora Hovard, 10 October 2022</span>
+                                        </header>
+                                        <p class="article-card__text">This article will teach you how to make incredible
+                                            and highly professional photos...</p>
+                                        <div class="article-card__footer"></div>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+
+                        <div class="blog-articles__article article">
+                            <article class="article-card">
+                                <a href="articles/article4.html" class="article-content">
+                                    <div class="article-card__img-wrapper">
+                                        <div class="article-card__img">
+                                            <img class="article__img" src="images/blog/coffe.jpg" alt="Coffe">
+                                        </div>
+                                    </div>
+                                    <div class="article-card__info">
+                                        <header class="article-card__header">
+                                            <h2 class="article-card__title">Pre-Plan the Shoot</h2>
+                                            <span class="article-card__date">Nora Hovard, 1 October 2022</span>
+                                        </header>
+                                        <p class="article-card__text">If you want to make impressive photo sessions, you
+                                            should take into account...</p>
+                                        <div class="article-card__footer"></div>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="article-page-go">
+                    <a class="article-page__link-go" href="#">Read More...</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a class="logo logo-footer" href="index.html">
+                    <img class="logo__img" src="images/logo.svg" alt="Logo Photographer">
+                </a>
+                <nav class="menu menu-footer">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a class="menu__link" href="#about">About</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#">Reviews</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a class="menu__link" href="#blog">Blog</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a class="menu__link" href="#contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="social__list footer-social__list">
+                    <li class="social__item footer-social__item">
+                        <a class="social__link footer-social__link" href="#">
+                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.8793 0.685547H8.12073C3.64288 0.685547 0 4.207 0 8.53558V21.8357C0 26.1641 3.64288 29.6855 8.12073 29.6855H21.8795C26.3571 29.6855 30 26.1641 30 21.8357V8.53558C30 4.207 26.3571 0.685547 21.8793 0.685547V0.685547ZM28.2413 21.8357C28.2413 25.2266 25.3873 27.9854 21.8793 27.9854H8.12073C4.61266 27.9854 1.75873 25.2266 1.75873 21.8357V8.53558C1.75873 5.14445 4.61266 2.38565 8.12073 2.38565H21.8795C25.3873 2.38565 28.2413 5.14445 28.2413 8.53558V21.8357Z"
+                                    fill="#242636" />
+                                <path
+                                    d="M14.9986 7.25635C10.4754 7.25635 6.79565 10.8134 6.79565 15.1858C6.79565 19.5582 10.4754 23.1153 14.9986 23.1153C19.5217 23.1153 23.2014 19.5582 23.2014 15.1858C23.2014 10.8134 19.5217 7.25635 14.9986 7.25635V7.25635ZM14.9986 21.4152C11.4454 21.4152 8.55438 18.6208 8.55438 15.1858C8.55438 11.7511 11.4454 8.95645 14.9986 8.95645C18.5519 8.95645 21.4427 11.7511 21.4427 15.1858C21.4427 18.6208 18.5519 21.4152 14.9986 21.4152V21.4152Z"
+                                    fill="#242636" />
+                                <path
+                                    d="M23.3987 4.43994C22.062 4.43994 20.9748 5.49111 20.9748 6.78301C20.9748 8.07512 22.062 9.12629 23.3987 9.12629C24.7353 9.12629 25.8227 8.07512 25.8227 6.78301C25.8227 5.49089 24.7353 4.43994 23.3987 4.43994ZM23.3987 7.42597C23.032 7.42597 22.7335 7.13745 22.7335 6.78301C22.7335 6.42834 23.032 6.14005 23.3987 6.14005C23.7655 6.14005 24.064 6.42834 24.064 6.78301C24.064 7.13745 23.7655 7.42597 23.3987 7.42597Z"
+                                    fill="#242636" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item footer-social__item">
+                        <a class="social__link footer-social__link" href="#">
+                            <svg width="31" height="24" viewBox="0 0 31 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.2809 0.416756C29.987 0.0419277 29.4997 -0.097075 29.0664 0.0697282L1.54755 10.4827C0.997775 10.6919 0.611881 11.1993 0.540241 11.8068C0.469288 12.4115 0.723804 12.9982 1.20125 13.3359L5.13481 16.1475C5.51589 16.42 6.00593 16.4493 6.41402 16.2238L14.9467 11.5123L8.29657 16.7117C7.98438 16.9559 7.79784 17.3454 7.79784 17.7533V22.5695C7.79784 23.0663 8.05808 23.5214 8.47693 23.7577C8.89647 23.994 9.40322 23.9705 9.8017 23.6954L12.7902 21.6197L15.729 23.7179C15.9865 23.9027 16.2932 24 16.6027 24C16.7073 24 16.8123 23.9887 16.9158 23.9662C17.3285 23.8761 17.6935 23.6091 17.9176 23.2338L30.3681 1.7368C30.6105 1.32291 30.5757 0.793261 30.2809 0.416756V0.416756ZM16.537 22.0659L13.4936 19.8929C13.2818 19.7415 13.0379 19.6658 12.7941 19.6658C12.5556 19.6658 12.3169 19.7384 12.1079 19.8836L9.55657 21.6556V18.025L21.2993 8.84391C21.8237 8.43386 21.9558 7.68756 21.6063 7.10806C21.2565 6.52856 20.5564 6.33276 19.9775 6.65246L5.86929 14.4426L2.54227 12.0645L27.8833 2.47567L16.537 22.0659Z"
+                                    fill="#242636" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social__item footer-social__item">
+                        <a class="social__link footer-social__link" href="#">
+                            <svg width="18" height="30" viewBox="0 0 18 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.1183 30H6.03968C5.19139 30 4.50133 29.3472 4.50133 28.5448V17.7086H1.53835C0.690056 17.7086 0 17.0556 0 16.2534V11.61C0 10.8076 0.690056 10.1548 1.53835 10.1548H4.50133V7.82959C4.50133 5.52406 5.26663 3.56255 6.71425 2.15744C8.1684 0.745926 10.2006 0 12.5911 0L16.4643 0.0059509C17.3112 0.00732422 18 0.660095 18 1.46118V5.7724C18 6.57486 17.3102 7.22763 16.4621 7.22763L13.8543 7.22855C13.059 7.22855 12.8565 7.37938 12.8132 7.42561C12.7418 7.50229 12.6569 7.71904 12.6569 8.31757V10.1546H16.2662C16.5379 10.1546 16.8011 10.218 17.0273 10.3374C17.5154 10.5954 17.8188 11.0831 17.8188 11.6103L17.8168 16.2536C17.8168 17.0556 17.1268 17.7084 16.2785 17.7084H12.6569V28.5448C12.6569 29.3472 11.9666 30 11.1183 30V30ZM6.36051 28.2413H10.7975V16.9212C10.7975 16.3854 11.2584 15.9496 11.8246 15.9496H15.9577L15.9594 11.9135H11.8243C11.2582 11.9135 10.7975 11.4777 10.7975 10.9419V8.31757C10.7975 7.63046 10.8713 6.84906 11.4196 6.26175C12.082 5.55176 13.1261 5.46982 13.8539 5.46982L16.1408 5.4689V1.76422L12.5896 1.75873C8.74788 1.75873 6.36051 4.08508 6.36051 7.82959V10.9419C6.36051 11.4775 5.89983 11.9135 5.33366 11.9135H1.85918V15.9496H5.33366C5.89983 15.9496 6.36051 16.3854 6.36051 16.9212V28.2413ZM16.4607 1.76468H16.4609H16.4607Z"
+                                    fill="#242636" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            
+                
+
+
+
+
+
+            <div id="contacts" class="footer__contacts">
+                <p class="footer__contacts-phone">Phone:
+                    <a class="phone" href="tel:80508543543">+1 (234) 567 89 00</a>
+                </p>
+            </div>
+            <p class="footer__copy">© 2022, "Photographer"</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
