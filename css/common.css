@@ -8,12 +8,12 @@
 }
 
 :root {
-  --brand-color: #885B87;
-  --main-text-color: #242636;
+  --brand-color: #d48ed3b0;
+  --main-text-color: #232636;
   --alternative-text-color: #fff;
-  --bg-color-header: #385C73;
-  --bg-color-section: #D4CCD4;
-  --bg-color-footer: #9A98AC;
+  --bg-color-header: #365d75;
+  --bg-color-section: #e0e0e0;
+  --bg-color-footer: #9794af;
 }
 
 body {
