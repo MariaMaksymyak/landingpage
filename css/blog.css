@@ -54,17 +54,12 @@ button:hover, a:hover {
     flex-direction: column;
     gap:20px;
     margin-block: 100px;
-    margin-left: 45%;
+    margin-left: 25%;
 }
 
 
-    
-.brands_sport_subtitle{
-    color: rgb(124, 95, 129);
-    font-size: 50px;
-    display: grid;
-   
-}
+
+
 
 
 .brands_list {
@@ -80,25 +75,6 @@ button:hover, a:hover {
 }
 
 
-.brands_sport_linkbutton{
-    background-color: transparent;
-    border: 1px solid #fff;
-    border-style: solid;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 20px;
-    font-weight:lighter;
-    margin: 0;
-    padding: 5px 10px;
-    text-align: center;
-    white-space: nowrap;
-    text-decoration: none;
-}
-.brands_sport_linkbutton:hover {
-    background-color: #fff;
-    color: black;
-}
 
 /* The Modal (background) */
 .modal {
@@ -110,19 +86,55 @@ button:hover, a:hover {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgb(121, 41, 110); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalimg{
+  display: flex;
+    align-items:flex-start;
+    justify-content: center;
 }
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #feeeff;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
 }
+.modal_button{
+  background-color: #feeeff;
+  border: 1px solid #fff;
+  border-style: solid;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  font-weight:lighter;
+  margin: 0;
+  padding: 5px 10px;
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
 
+}
+
+.modal_button:hover {
+  background-color: #fff;
+  color: rgb(212, 87, 87);
+}
+.modal_text{
+  display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    margin-block: 100px;
+    margin-left: 20%;
+    
+}
 /* The Close Button */
 .close {
   color: #aaa;
@@ -133,7 +145,7 @@ button:hover, a:hover {
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: rgb(54, 36, 36);
   text-decoration: none;
   cursor: pointer;
 }
