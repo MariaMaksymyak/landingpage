@@ -5,23 +5,23 @@
     margin-bottom: 0;
   }
   
-  .footer__inner {
+  .footer_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
   
-  .footer-social__item {
+  .footer-social_item {
     margin-right: 15px;
   }
   
-  .footer__copy {
+  .footer_copy {
     text-align: center;
   }
   .phone {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 700;
-    color: var(--brand-color);
+    color: #000;;
   }
   
   @media (max-width: 1022px) {
@@ -30,16 +30,16 @@
       display: none;
     }
   
-    .footer__inner {
+    .footer_inner {
       justify-content: center;
     }
-    .footer__contacts {
+    .footer_contacts {
       text-align: center;
       margin-top: 10px;
       margin-bottom: 5px;
     }
   
-    .footer-social__list {
+    .footer-social_list {
       padding-bottom: 0;
     }
    }
