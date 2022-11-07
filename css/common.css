@@ -60,17 +60,5 @@ a {
 }
 
 
-/* ADAPTIVE */
-@media (max-width: 768px) {
-  .section-page {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
 
-@media (max-width: 500px) {
-  .section-page {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
+

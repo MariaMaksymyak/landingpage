@@ -1,4 +1,3 @@
-/* HEADER */
 .header_top {
     display: flex;
     justify-content: space-between;
@@ -33,7 +32,7 @@
     border-bottom: 1px solid var(--brand-color);
   }
   
-  /* Start of Mobile Navigation Menu */
+  /* Mobile Navigation Menu */
   .menu_btn {
     width: 30px;
     border: none;
@@ -67,8 +66,8 @@
     height: 2px;
     background-color: var(--brand-color);
   }
-  
-  /* End of Mobile Navigation Menu */
+  /*Mobile Navigation Menu */
+
   .social_list {
     display: flex;
     align-items: center;
@@ -156,6 +155,7 @@
   }
   
   @media (max-width: 500px) {
+    
     .logo_img {
       width: 80%;
     }
@@ -172,3 +172,7 @@
       font-size: 27px;
     }
   }
+  @media (max-width: 500px) {
+    .menu_list {
+      flex-direction: row;
+    }}
