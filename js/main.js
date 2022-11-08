@@ -3,7 +3,7 @@ showSlides();
 
 function showSlides() {
     var i;
-    var slides = document.getElementsByClassName("mySlides");
+    var slides = document.getElementsByClassName("Slides");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
@@ -16,8 +16,8 @@ function showSlides() {
 
 
 // the modal
-var modal = document.getElementById('myModal');
-var btn = document.getElementById("myBtn");
+var modal = document.getElementById('Modal');
+var btn = document.getElementById("Btn");
 var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
     modal.style.display = "block";
