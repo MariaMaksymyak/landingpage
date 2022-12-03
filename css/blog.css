@@ -1,5 +1,5 @@
 .blog_wrapper {
-  background-image: url(/images/background_brands.jpg);
+  background-image: url(/images/background_information.jpg);
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -47,34 +47,28 @@
   /* Full height */
   overflow: auto;
   /* Enable scroll if needed */
-  background-color: rgb(121, 41, 110);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
+ 
 }
 
 .modalimg {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: right;
 }
 
 /* Modal Content/Box */
 .modal-content {
   background-color: #feeeff;
-  margin: 15% auto;
-  /* 15% from the top and centered */
+  margin: 5% auto;
+  margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
-  /* Could be more or less, depending on screen size */
+  width: 60%;
+ 
 }
 
 .modal_button {
-  background-color: #feeeff;
-  border: 1px solid #fff;
-  border-style: solid;
-  color: #fff;
+ 
   cursor: pointer;
   display: inline-block;
   font-size: 20px;
@@ -87,10 +81,7 @@
 
 }
 
-.modal_button:hover {
-  background-color: #fff;
-  color: rgb(212, 87, 87);
-}
+
 
 .modal_text {
   display: flex;
@@ -102,6 +93,7 @@
   margin-left: 20%;
 
 }
+
 
 .close {
   color: #aaa;
