@@ -34,12 +34,12 @@ window.onclick = function(event) {
 
 
 // Mobile Navigation Menu
-let menuButton = document.querySelector('.menu__btn');
+let menuButton = document.querySelector('.menu_btn');
 
 menuButton.onclick = function () {
   mobileMenu();
 }
 function mobileMenu() {
-  let menuList = document.querySelector('.menu__list');
-  menuList.classList.toggle('menu__list--active');
+  let menuList = document.querySelector('.menu_list');
+  menuList.classList.toggle('menu_list--active');
 }

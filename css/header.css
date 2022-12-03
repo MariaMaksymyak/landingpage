@@ -152,7 +152,9 @@
     .header-social_item--telegram, .header-social_item--facebook {
       display: none;
     }
-  }
+    .logo {
+      width: 180px;
+  }}
   
   @media (max-width: 500px) {
     
