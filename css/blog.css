@@ -34,7 +34,6 @@
 /* The Modal (background) */
 .modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
   /* Stay in place */
   z-index: 1;
@@ -110,7 +109,7 @@
 }
 
 .registration {
-  background-color: #FFF8DC;
+  background-color: var(--bg-color-footer);;
 }
 
 .flex {
